@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+body {
+  background-color: #1a1a1a;
+}
+
+header {
+  background-image: url("../images/pastel-4829602_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: fixed;
+  padding: 2rem 4rem 4rem;
+  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    background-size: cover;
+  }
+}
+
+header nav {
+  padding: 0px !important;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+header nav ul li a {
+  color: #d9d9d9 !important;
+}
+
+header .header-content {
+  margin-top: 9rem;
+  margin-bottom: 6rem;
+}
+
+header .header-content .primary-text h1 {
+  font-weight: bolder;
+  font-size: 2.5rem;
+  color: #b9cbda;
+}
+
+header .header-content .supporting-text p {
+  color: #d9d9d9;
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+header .header-content .cta-button .btn {
+  background-color: #1a1a1a;
+  color: #d1c7c7;
+  font-size: .8rem;
+  font-weight: bold;
+  width: 12rem;
+  padding: .7rem;
+  -webkit-box-shadow: 0 5px 3px rgba(10, 10, 10, 0.7), 0 -2px 2px rgba(153, 153, 153, 0.3);
+          box-shadow: 0 5px 3px rgba(10, 10, 10, 0.7), 0 -2px 2px rgba(153, 153, 153, 0.3);
+}
+
+main.mainpage-content {
+  padding: 0rem 4rem;
+  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main.mainpage-content section {
+  margin-top: 10rem;
+  margin-bottom: 9rem;
+}
+
+main.mainpage-content section.about-us {
+  color: #b3b3b3;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+main.mainpage-content section.about-us div {
+  text-align: center;
+  margin: auto;
+}
+
+@media screen and (min-width: 996px) {
+  main.mainpage-content section.about-us div {
+    width: 60%;
+  }
+}
+
+main.mainpage-content section.about-us div p {
+  line-break: auto;
+  letter-spacing: 1px;
+}
+
+main.mainpage-content section.services h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #8c8c8c;
+}
+
+main.mainpage-content section.services h1::after {
+  display: block;
+  content: '';
+  border-bottom: 5px solid #8c8c8c;
+  margin-top: 10px;
+  width: 70%;
+}
+
+@media screen and (max-width: 576px) {
+  main.mainpage-content section.services h1 {
+    font-size: 2.5rem;
+  }
+}
+
+main.mainpage-content section.services .info {
+  margin: 4rem 1rem;
+  color: #8c8c8c;
+}
+
+main.mainpage-content section.services .info h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+main.mainpage-content section.services .info .details {
+  font-size: .9rem;
+  letter-spacing: 1px;
+}
+
+main.mainpage-content section.services .image {
+  margin: 4rem 1rem;
+  text-align: right;
+}
+
+main.mainpage-content section.services .image img {
+  width: 100%;
+}
+
+@media screen and (min-width: 996px) {
+  main.mainpage-content section.services .image img {
+    margin-top: 5rem;
+  }
+}
+
+main.mainpage-content section.contact-us {
+  color: #8c8c8c;
+}
+
+main.mainpage-content section.contact-us h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #8c8c8c;
+}
+
+main.mainpage-content section.contact-us h1::after {
+  display: block;
+  content: '';
+  border-bottom: 5px solid #8c8c8c;
+  margin-top: 10px;
+  width: 70%;
+}
+
+@media screen and (max-width: 576px) {
+  main.mainpage-content section.contact-us h1 {
+    font-size: 2.5rem;
+  }
+}
+
+main.mainpage-content section.contact-us .form-container {
+  padding: 1rem;
+  background-color: #1c1c1c;
+  -webkit-box-shadow: 0px -3px 3px rgba(230, 230, 230, 0.15), 0px 5px 7px rgba(20, 20, 20, 0.9);
+          box-shadow: 0px -3px 3px rgba(230, 230, 230, 0.15), 0px 5px 7px rgba(20, 20, 20, 0.9);
+  border-radius: 50px;
+  margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 996px) {
+  main.mainpage-content section.contact-us .form-container {
+    margin-top: 1px;
+  }
+}
+
+main.mainpage-content section.contact-us .form-container .inner-container {
+  border-radius: 50px;
+  padding: 1.5rem;
+  background-color: #171717;
+  -webkit-box-shadow: inset 0px -3px 3px rgba(230, 230, 230, 0.15), inset 0px 5px 7px rgba(20, 20, 20, 0.9);
+          box-shadow: inset 0px -3px 3px rgba(230, 230, 230, 0.15), inset 0px 5px 7px rgba(20, 20, 20, 0.9);
+}
+
+main.mainpage-content section.contact-us .form-container .inner-container form .form-control-custom {
+  width: 100%;
+  padding: .4rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #1c1c1c;
+}
+
+main.mainpage-content section.contact-us .form-container .inner-container form .form-control-custom::-webkit-input-placeholder {
+  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: .9rem;
+}
+
+main.mainpage-content section.contact-us .form-container .inner-container form .form-control-custom:-ms-input-placeholder {
+  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: .9rem;
+}
+
+main.mainpage-content section.contact-us .form-container .inner-container form .form-control-custom::-ms-input-placeholder {
+  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: .9rem;
+}
+
+main.mainpage-content section.contact-us .form-container .inner-container form .form-control-custom::placeholder {
+  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: .9rem;
+}
+
+main.mainpage-content section.contact-us .form-container .inner-container form .btn-send-message {
+  background-color: #1c1c1c;
+  color: #9c9c9c;
+  -webkit-box-shadow: 0px -1px 3px rgba(255, 255, 255, 0.2), 0px 5px 7px rgba(20, 20, 20, 0.9);
+          box-shadow: 0px -1px 3px rgba(255, 255, 255, 0.2), 0px 5px 7px rgba(20, 20, 20, 0.9);
+  width: 12rem;
+  border-radius: 20px;
+}
+
+footer {
+  padding: 2rem 4rem 4rem;
+  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #8c8c8c;
+}
+/*# sourceMappingURL=main.css.map */
