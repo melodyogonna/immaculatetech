@@ -8,8 +8,14 @@ header {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: fixed;
-  padding: 2rem 4rem 4rem;
+  padding: 1rem 4rem 4rem;
   font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen and (min-width: 576px) {
+  header {
+    padding: 2rem 4rem 4rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -58,8 +64,14 @@ header .header-content .cta-button .btn {
 }
 
 main.mainpage-content {
-  padding: 0rem 4rem;
+  padding: 0rem 1rem;
   font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen and (min-width: 996px) {
+  main.mainpage-content {
+    padding: 0rem 4rem;
+  }
 }
 
 main.mainpage-content section {
@@ -110,8 +122,14 @@ main.mainpage-content section.services h1::after {
 }
 
 main.mainpage-content section.services .info {
-  margin: 4rem 1rem;
+  margin: 4rem 0rem;
   color: #8c8c8c;
+}
+
+@media screen and (min-width: 996px) {
+  main.mainpage-content section.services .info {
+    margin: 4rem 1rem;
+  }
 }
 
 main.mainpage-content section.services .info h3 {

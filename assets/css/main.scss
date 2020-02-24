@@ -29,7 +29,10 @@ header{
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: fixed;
-    padding: 2rem 4rem 4rem;
+    padding: 1rem 4rem 4rem;
+    @media screen and (min-width: 576px){
+        padding: 2rem 4rem 4rem;
+    }
     @include font-family();
 
     @media screen and (max-width: 768px) {
@@ -79,7 +82,10 @@ header{
     }
 }
 main.mainpage-content{
-    padding: 0rem 4rem;
+    padding: 0rem 1rem;
+    @media screen and (min-width: 996px){
+        padding: 0rem 4rem;        
+    }
     @include font-family();
     section{
         margin-top: 10rem;
@@ -103,7 +109,10 @@ main.mainpage-content{
         &.services{
            @include section-header();
             .info{
-                margin: 4rem 1rem;
+                margin: 4rem 0rem;
+                @media screen and (min-width: 996px){
+                    margin: 4rem 1rem;
+                }
                 color: hsl(207, 0%, 55%);
                 h3{
                     font-weight: bold;
