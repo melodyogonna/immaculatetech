@@ -1,0 +1,15 @@
+main.iterahub-content{
+
+    section{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        &.introduction{
+            p{
+                color: hsl(207, 0%, 65%);
+                font-size: 1.2rem;
+                font-weight:600;
+                letter-spacing: 1px;
+            }   
+        }
+    }
+}
