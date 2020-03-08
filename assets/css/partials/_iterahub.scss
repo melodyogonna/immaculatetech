@@ -11,5 +11,47 @@ main.iterahub-content{
                 letter-spacing: 1px;
             }   
         }
+        &.featuring{
+            color: hsl(207, 0%, 65%);
+            font-size: 1.2rem;
+            font-weight:600;
+            letter-spacing: 1px;
+        }
+        &.made-for{
+            color: hsl(207, 0%, 65%);
+            margin-top: 15rem!important;
+            h2{
+                font-size: 2.3rem;
+                font-weight: 700;
+            }
+            .row{
+                div.details, div.image{
+                    margin-bottom: 8rem;
+                }
+                .details{
+                    
+                    h4{
+                        margin-bottom: 1rem;
+                        font-weight: bold;
+                        font-size: 1.9rem;
+                    }
+                    p{
+                        font-size: 1.1rem;
+                        font-weight: 600;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+        &.contact-us{
+            color: hsl(207, 0%, 65%);
+            p{
+                font-size: 1.1rem;
+            }
+            h3{
+                font-weight: bold;
+                font-size: 2rem;
+            }
+        }
     }
 }

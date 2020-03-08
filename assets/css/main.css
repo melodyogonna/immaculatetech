@@ -312,6 +312,52 @@ main.iterahub-content section.introduction p {
   letter-spacing: 1px;
 }
 
+main.iterahub-content section.featuring {
+  color: #a6a6a6;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+main.iterahub-content section.made-for {
+  color: #a6a6a6;
+  margin-top: 15rem !important;
+}
+
+main.iterahub-content section.made-for h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+main.iterahub-content section.made-for .row div.details, main.iterahub-content section.made-for .row div.image {
+  margin-bottom: 8rem;
+}
+
+main.iterahub-content section.made-for .row .details h4 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.9rem;
+}
+
+main.iterahub-content section.made-for .row .details p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+main.iterahub-content section.contact-us {
+  color: #a6a6a6;
+}
+
+main.iterahub-content section.contact-us p {
+  font-size: 1.1rem;
+}
+
+main.iterahub-content section.contact-us h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
 footer {
   padding: 2rem 4rem 4rem;
   font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
