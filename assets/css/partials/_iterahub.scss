@@ -11,6 +11,15 @@ main.iterahub-content{
                 letter-spacing: 1px;
             }   
         }
+        &.our-hub{
+            img{
+                width: 100%;
+                object-fit: cover;
+                @media screen and (min-width: 998px){
+                     height: 300px;
+                }
+            }
+        }
         &.featuring{
             color: hsl(207, 0%, 65%);
             font-size: 1.2rem;
@@ -36,10 +45,23 @@ main.iterahub-content{
                         font-size: 1.9rem;
                     }
                     p{
-                        font-size: 1.1rem;
-                        font-weight: 600;
+                        font-size: 1rem;
+                        font-weight: 400;
                         letter-spacing: 1px;
                     }
+                }
+            }
+        }
+        &.partners{
+            margin-bottom: 8rem;
+            h3{
+                font-weight: bold;
+                color: hsl(207, 0%, 65%);
+            }
+            .partner-logo{
+                img{
+                    width: 150px;
+                    margin-right: 3rem;
                 }
             }
         }

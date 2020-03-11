@@ -9,9 +9,9 @@ header {
 }
 
 header.homepage {
-  background-image: url("../images/pastel-4829602_1280.jpg");
+  background-image: url("../images/laptop-image1.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: fixed;
 }
 
@@ -312,6 +312,18 @@ main.iterahub-content section.introduction p {
   letter-spacing: 1px;
 }
 
+main.iterahub-content section.our-hub img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (min-width: 998px) {
+  main.iterahub-content section.our-hub img {
+    height: 300px;
+  }
+}
+
 main.iterahub-content section.featuring {
   color: #a6a6a6;
   font-size: 1.2rem;
@@ -340,9 +352,23 @@ main.iterahub-content section.made-for .row .details h4 {
 }
 
 main.iterahub-content section.made-for .row .details p {
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 400;
   letter-spacing: 1px;
+}
+
+main.iterahub-content section.partners {
+  margin-bottom: 8rem;
+}
+
+main.iterahub-content section.partners h3 {
+  font-weight: bold;
+  color: #a6a6a6;
+}
+
+main.iterahub-content section.partners .partner-logo img {
+  width: 150px;
+  margin-right: 3rem;
 }
 
 main.iterahub-content section.contact-us {
