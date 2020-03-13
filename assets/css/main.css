@@ -12,7 +12,7 @@ header.homepage {
   background-image: url("../images/laptop-image1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: fixed;
+  background-attachment: fixed;
 }
 
 header.homepage .header-content {
@@ -300,6 +300,10 @@ main.mainpage-content section.contact-us .form-container .inner-container form .
   border-radius: 20px;
 }
 
+main.iterahub-content {
+  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 main.iterahub-content section {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -382,6 +386,84 @@ main.iterahub-content section.contact-us p {
 main.iterahub-content section.contact-us h3 {
   font-weight: bold;
   font-size: 2rem;
+}
+
+main.about-us-page {
+  padding: 0rem 1rem;
+  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen and (min-width: 996px) {
+  main.about-us-page {
+    padding: 0rem 4rem;
+  }
+}
+
+main.about-us-page section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+main.about-us-page section.about-us-introduction p {
+  color: #a6a6a6;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+main.about-us-page section.services h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #8c8c8c;
+}
+
+main.about-us-page section.services h1::after {
+  display: block;
+  content: '';
+  border-bottom: 5px solid #8c8c8c;
+  margin-top: 10px;
+  width: 70%;
+}
+
+@media screen and (max-width: 576px) {
+  main.about-us-page section.services h1 {
+    font-size: 2.5rem;
+  }
+}
+
+main.about-us-page section.services .info {
+  margin: 4rem 0rem;
+  color: #8c8c8c;
+}
+
+@media screen and (min-width: 996px) {
+  main.about-us-page section.services .info {
+    margin: 4rem 1rem;
+  }
+}
+
+main.about-us-page section.services .info h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+main.about-us-page section.services .info .details {
+  font-size: .9rem;
+  letter-spacing: 1px;
+}
+
+main.about-us-page section.services .image {
+  margin: 4rem 1rem;
+  text-align: right;
+}
+
+main.about-us-page section.services .image img {
+  width: 100%;
+}
+
+@media screen and (min-width: 996px) {
+  main.about-us-page section.services .image img {
+    margin-top: 5rem;
+  }
 }
 
 footer {

@@ -1,0 +1,46 @@
+main.about-us-page{
+    padding: 0rem 1rem;
+    @media screen and (min-width: 996px){
+        padding: 0rem 4rem;        
+    }
+    @include font-family();
+    section{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        &.about-us-introduction{
+            p{
+                color: hsl(207, 0%, 65%);
+                font-size: 1.2rem;
+                letter-spacing: 1px;
+            }
+        }
+        &.services{
+            @include section-header();
+             .info{
+                 margin: 4rem 0rem;
+                 @media screen and (min-width: 996px){
+                     margin: 4rem 1rem;
+                 }
+                 color: hsl(207, 0%, 55%);
+                 h3{
+                     font-weight: bold;
+                     font-size: 2rem;
+                 }
+                 .details{
+                     font-size: .9rem;
+                     letter-spacing: 1px;
+                 }
+             }
+             .image{
+                 margin: 4rem 1rem;
+                 text-align: right;
+                 img{
+                     width: 100%;
+                     @media screen and (min-width: 996px){
+                         margin-top: 5rem;
+                     }
+                 }
+             }
+         }
+    }
+}

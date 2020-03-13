@@ -29,7 +29,7 @@ header{
         background-image: url('../images/laptop-image1.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: fixed;
+        background-attachment: fixed;
         .header-content{
             margin-top: 9rem;
             margin-bottom: 6rem;
@@ -128,6 +128,7 @@ header{
 
 @import 'partials/homepage';
 @import 'partials/iterahub';
+@import 'partials/about';
 
 footer{
     padding: 2rem 4rem 4rem;
