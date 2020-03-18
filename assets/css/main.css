@@ -9,7 +9,7 @@ header {
 }
 
 header.homepage {
-  background-image: url("../images/laptop-image1.jpg");
+  background-image: url("../images/laptop-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -22,8 +22,9 @@ header.homepage .header-content {
 
 header.homepage .header-content .primary-text h1 {
   font-weight: bolder;
-  font-size: 2.5rem;
-  color: #b9cbda;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #a43136;
 }
 
 header.homepage .header-content .supporting-text p {
@@ -331,7 +332,6 @@ main.iterahub-content section.our-hub img {
 main.iterahub-content section.featuring {
   color: #a6a6a6;
   font-size: 1.2rem;
-  font-weight: 600;
   letter-spacing: 1px;
 }
 
@@ -402,6 +402,26 @@ main.about-us-page {
 main.about-us-page section {
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+
+main.about-us-page section.about-us-introduction h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #8c8c8c;
+}
+
+main.about-us-page section.about-us-introduction h1::after {
+  display: block;
+  content: '';
+  border-bottom: 5px solid #8c8c8c;
+  margin-top: 10px;
+  width: 70%;
+}
+
+@media screen and (max-width: 576px) {
+  main.about-us-page section.about-us-introduction h1 {
+    font-size: 2.5rem;
+  }
 }
 
 main.about-us-page section.about-us-introduction p {

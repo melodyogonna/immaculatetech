@@ -8,6 +8,7 @@ main.about-us-page{
         margin-top: 5rem;
         margin-bottom: 5rem;
         &.about-us-introduction{
+            @include section-header();
             p{
                 color: hsl(207, 0%, 65%);
                 font-size: 1.2rem;
