@@ -317,16 +317,39 @@ main.iterahub-content section.introduction p {
   letter-spacing: 1px;
 }
 
-main.iterahub-content section.our-hub img {
+main.iterahub-content section.our-hub .hub-image {
+  position: relative;
+}
+
+main.iterahub-content section.our-hub .hub-image img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 @media screen and (min-width: 998px) {
-  main.iterahub-content section.our-hub img {
+  main.iterahub-content section.our-hub .hub-image img {
     height: 300px;
   }
+}
+
+main.iterahub-content section.our-hub .hub-image-description {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .8;
+  background-color: black;
+  display: -ms-grid;
+  display: grid;
+}
+
+main.iterahub-content section.our-hub .hub-image-description h2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: auto;
+  color: #cccccc;
 }
 
 main.iterahub-content section.featuring {

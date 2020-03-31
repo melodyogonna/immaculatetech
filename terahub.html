@@ -13,7 +13,7 @@
 
 <body>
     <header class="terahub">
-        <nav class="navbar navbar-expand-md navbar-dark">
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top">
             <a class="navbar-brand text-light" href="#">iTeraHub</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,6 +55,7 @@
                     <div class="header-image mt-5 mt-sm-0">
                         <img src="assets/images/kc-image-3.png" alt="" class="img-fluid rounded-circle">
                     </div>
+
                 </div>
             </div>
             <div class="text-center my-5 keep-moving-icon">
@@ -76,22 +77,51 @@
             <section class="our-hub">
                 <div class="row">
                     <div class="col-md-6 mb-md-5" data-aos="fade-up">
-                        <img src="assets/images/work-space.jpg" alt="" class="img-fluid">
+                        <div class="hub-image">
+                            <img src="assets/images/work-space.jpg" alt="" class="img-fluid">
+                            <div class="hub-image-description">
+                                <h2>
+                                    Cozy Workspace
+                                </h2>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="col-md-6 mb-md-5" data-aos="fade-up">
-                        <img src="assets/images/training-room.jpg" alt="" class="img-fluid">
+                        <div class="hub-image">
+                            <img src="assets/images/training-room.jpg" alt="" class="img-fluid">
+                            <div class="hub-image-description">
+                                <h2>
+                                    Training Room
+                                </h2>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-6 mb-md-5" data-aos="fade-up">
-                        <img src="assets/images/conference-room.jpg" alt="" class="img-fluid">
+                        <div class="hub-image">
+                            <img src="assets/images/conference-room.jpg" alt="" class="img-fluid">
+                            <div class="hub-image-description">
+                                <h2>
+                                    Conference Room
+                                </h2>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-6 mb-md-5" data-aos="fade-up">
-                        <img src="assets/images/environment.jpg" alt="" class="img-fluid">
+                        <div class="hub-image">
+                            <img src="assets/images/environment.jpg" alt="" class="img-fluid">
+                            <div class="hub-image-description">
+                                <h2>
+                                    Cozy Workspace
+                                </h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
             <section class="featuring px-0">
                 <p data-aos="fade-up">We work to give our customers the best experience with our services, at immaculate
-                    technologies, We provided different necessary features for better understanding and comfortable
+                    technologies, We provide different necessary features for better understanding and comfortable
                     expressions for freelancers and trainee.</p>
                 <ul data-aos="fade-up">
                     <li>
@@ -218,6 +248,21 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('main.iterahub-content section.our-hub .hub-image .hub-image-description').hide();
+            $('main.iterahub-content section.our-hub .hub-image').hover(
+
+                function (event) {
+                    $(event.target.nextElementSibling).fadeIn();
+                },
+                function (event) {
+                    $(event.target).hide();
+                }
+            )
+        });
+
+    </script>
 </body>
 
 </html>

@@ -12,11 +12,28 @@ main.iterahub-content{
             }   
         }
         &.our-hub{
-            img{
+            .hub-image{
+                position: relative;
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                    @media screen and (min-width: 998px){
+                         height: 300px;
+                    }
+                }
+            }
+            .hub-image-description{
+                position: absolute;
+                top: 0;
+                height: 100%;
                 width: 100%;
-                object-fit: cover;
-                @media screen and (min-width: 998px){
-                     height: 300px;
+                opacity: .8;
+                background-color: black;
+                display: grid;
+                h2{
+                    align-self: center;
+                    margin: auto;
+                    color: hsl(0, 0%, 80%);
                 }
             }
         }
